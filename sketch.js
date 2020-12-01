@@ -39,11 +39,11 @@ function draw() {
 
 function keyPressed() {
   	if (keyCode === RIGHT_ARROW){
-    	Matter.Body.applyForce(paper.body,paper.body.position,{x:50,y:-90});
+    	Matter.Body.applyForce(paper.body,paper.body.position,{x:185,y:-90});
 	}
 	  
 	if (keyCode === LEFT_ARROW){
-    	Matter.Body.applyForce(paper.body,paper.body.position,{x:-50,y:-90});
+    	Matter.Body.applyForce(paper.body,paper.body.position,{x:-185,y:-90});
 	}
 }
 
